@@ -1,13 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    
+    <title>Snowflake Artisan | Geometry</title>
+    <meta name="description" content="Fractal and radial symmetry generator." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+    <style>
+      /* Splash styles */
+      :root {
+        background-color: #0f172a;
+        color: #f8fafc;
+      }
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Loading state -->
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <p style="opacity: 0.5; letter-spacing: 0.2em;">LOADING ARTISAN...</p>
+      </div>
+    </div>
+
+    <!-- Entry point -->
     <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
-
