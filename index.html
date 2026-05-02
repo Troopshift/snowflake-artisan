@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- Snowflake favicon from CDN -->
+    <link rel="icon" type="image/svg+xml" href="https://site-assets.fontawesome.com/releases/v6.5.1/svgs/solid/snowflake.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>Snowflake Artisan | Geometry</title>
+    <title>Snowflake Artisan | Digital Geometry</title>
     <meta name="description" content="Fractal and radial symmetry generator." />
 
     <!-- Fonts -->
@@ -22,7 +23,8 @@
       body {
         margin: 0;
         font-family: 'Inter', sans-serif;
-        overflow: hidden;
+        /* Fixed: Scroll enabled */
+        overflow-y: auto;
       }
       #root {
         min-height: 100vh;
