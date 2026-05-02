@@ -22,8 +22,7 @@ This is a **Vibe Coding** project created and deployed through AI Studio. It is 
 
 ## Deployment
 
-Built with **Angular 18** and **Vite**. Automated deployment is configured via GitHub Actions.
+Built with **Vite**
 
-* **Workflow:** `.github/workflows/deploy.yml`
 * **Environment:** Node.js 24
 * **Base Path:** `./`
